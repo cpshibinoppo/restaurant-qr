@@ -31,14 +31,7 @@ async function registerSW() {
 
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
-function on() {
-  document.getElementById("overlay").style.display = "block";
-}
 
-function off() {
-  document.getElementById("overlay").style.display = "none";
-  console.log("off");
-}
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
     const target = document.querySelector(tab.dataset.tabTarget)

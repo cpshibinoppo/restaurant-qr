@@ -27,7 +27,6 @@ function sent(){
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 function closeimg() { 
